@@ -1,0 +1,14 @@
+spring:
+  ai:
+    openai:
+      api-key: ${API_TOKEN}
+      base-url: https://openrouter.ai/api
+      chat:
+        options:
+#          model: deepseek/deepseek-r1-0528:free
+           model: anthropic/claude-sonnet-4
+          # model: openai/gpt-4.1
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:mcp-servers-config.json

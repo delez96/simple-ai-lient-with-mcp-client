@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "my-python-mcp": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\Анатолий\\projects\\mcp\\myMcpTest\\myMcpTest\\simple_mcp_server.py"
+      ]
+    }
+  }
+}
