@@ -5,9 +5,15 @@ spring:
       base-url: https://openrouter.ai/api
       chat:
         options:
-#          model: deepseek/deepseek-r1-0528:free
-           model: anthropic/claude-sonnet-4
-          # model: openai/gpt-4.1
+          #model: deepseek/deepseek-r1-0528:free
+          model: anthropic/claude-sonnet-4
+          #model: openai/gpt-4.1
+      embedding:
+        api-key: ${GPT_API_TOKEN}
+        base-url: https://api.openai.com
+        options:
+          model: text-embedding-3-small
+
     mcp:
       client:
         stdio:
